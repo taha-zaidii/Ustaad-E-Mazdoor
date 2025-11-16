@@ -24,11 +24,13 @@
   },
   "include": [
     "next-env.d.ts",
+    "globals.d.ts",
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
-, "lib/db.ts"  ],
+    "**/*.mts",
+    "lib/db.ts"
+  ],
   "exclude": ["node_modules"]
 }
